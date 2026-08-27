@@ -1,5 +1,8 @@
 # hybrid-drt
 
+This maintained fork is published as the `eisyfit-hybrid-drt` distribution
+for use by EIS Fitting. The Python import name remains `hybdrt`.
+
 `hybrid-drt` is a Python package for probabilistic analysis of electrochemical impedance data using the distribution of relaxation times (DRT) and distribution of phasances (DOP). The key features of `hybrid-drt` are:
 1. DRT estimation using a robust, self-tuning hierarchical Bayesian approach (no manual tuning needed)
 2. Introduction of the [DOP](https://github.com/jdhuang-csm/hybrid-drt/blob/main/tutorials/Fitting_with_distribution_of_phasances.ipynb) for handling constant-phase features like (pseudo)-inductance, (pseudo)-capacitance, or Warburg-like diffusion

@@ -33,7 +33,8 @@ You can find a variety of tutorials in the corresponding folder. There are not y
 I gave a webinar providing a general introduction to the DRT, which may be helpful for understanding the DRT and this package. You can find the webinar recording and materials in the `webinar` folder. This uses `hybrid-drt` for a short software demonstration, which can be found in the same folder.
 
 ## Requirements
-`hybrid-drt` requires the [`mittag-leffler`](https://github.com/jdhuang-csm/mittag-leffler) package.
+`hybrid-drt` requires the `eisyfit-mittag-leffler` distribution, which provides
+the `mitlef` import package.
 `hybrid-drt` also requires the following packages:
 * numpy
 * matplotlib

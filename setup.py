@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 
 setup(name='eisyfit-hybrid-drt',
-      version='0.1',
+      version='0.1.1',
       description='A Python package for probabilistic electrochemical analysis',
       url='https://github.com/jaroslav-herman/hybrid-drt',
       author='Jake Huang',
@@ -17,7 +17,8 @@ setup(name='eisyfit-hybrid-drt',
           'cvxopt',
           'matplotlib',
           'scikit-learn',
-          'scikit-image'
+          'scikit-image',
+          'eisyfit-mittag-leffler'
       ],
       package_data={'hybdrt': ['mapping/stan_models/*.stan']},
       include_package_data=True
